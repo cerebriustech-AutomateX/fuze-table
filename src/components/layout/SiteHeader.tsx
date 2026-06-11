@@ -23,15 +23,16 @@ export function SiteHeader() {
   return (
     <header className="fixed inset-x-0 top-0 z-50 border-b border-white/[0.06] bg-[#080809]/75 backdrop-blur-md">
       <div
-        className={`${spacing.container} flex h-[4.5rem] max-h-20 items-center justify-between md:h-20 ${spacing.sectionX}`}
+        className={`${spacing.container} flex h-[5.25rem] items-center justify-between md:h-24 ${spacing.sectionX}`}
       >
-        <Link href="/" className="relative block h-14 w-40 md:h-[4.5rem] md:w-48">
+        <Link href="/" className="relative block h-[4.75rem] w-52 md:h-[5.5rem] md:w-60">
           <Image
             src={assets.logo}
             alt="Fuze Table Private Dining"
             fill
+            unoptimized
             className="object-contain object-left"
-            sizes="(max-width: 768px) 160px, 192px"
+            sizes="(max-width: 768px) 208px, 240px"
             priority
           />
         </Link>

@@ -6,7 +6,8 @@ Add your brand photography using these exact paths (JPEG or WebP recommended, co
 
 | File | Usage |
 |------|--------|
-| `logo.png` | Header and footer logo (gold Fuze Table mark) |
+| `logo.png` | Header and footer logo (transparent gold mark) |
+| `logo-black.png` | Alternate gold mark on solid black |
 
 ## Hero
 

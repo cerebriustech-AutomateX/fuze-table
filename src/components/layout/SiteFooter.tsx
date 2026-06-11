@@ -14,6 +14,7 @@ export function SiteFooter() {
                 src={assets.logo}
                 alt="Fuze Table Private Dining and Events"
                 fill
+                unoptimized
                 className="object-contain object-left"
                 sizes="(max-width: 768px) 224px, 256px"
               />
